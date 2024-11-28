@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using EDDemo.Estructuras_Lineales;
 using EDDemo.Estructuras_Lineales.Clases;
 using EDDemo.Estructuras_No_Lineales;
+using EDDemo.Metodos_de_ordenamiento;
 using EDDemo.Recursividad;
 
 namespace EDDemo
@@ -125,6 +126,33 @@ namespace EDDemo
             frmTorreHanoi mTorreHanoi = new frmTorreHanoi();    
             mTorreHanoi.MdiParent = this;   
             mTorreHanoi.Show();
+        }
+
+        private void metodoBurbujaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBurbuja mBurbuja = new frmBurbuja();
+            mBurbuja.MdiParent = this;
+            mBurbuja.Show();
+        }
+
+        private void intercalacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmIntercalacion mIntercalacion = new frmIntercalacion();   
+            mIntercalacion.MdiParent = this;
+            mIntercalacion.Show();
+        }
+
+        private void shellsortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmShellsort mShellsort = new frmShellsort();
+            mShellsort.MdiParent= this;
+            mShellsort.Show();
+        }
+
+        private void mezclaNaturalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mMezclaN.MdiParent = this;
+            mMezclaN.Show();
         }
     }
 }

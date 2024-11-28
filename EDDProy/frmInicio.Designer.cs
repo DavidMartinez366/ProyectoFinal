@@ -47,6 +47,11 @@ namespace EDDemo
             this.secuenciaDeFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.torreDeHanoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.torreDeHanoiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.metodosDeOrdenamientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.metodoBurbujaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shellsortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mezclaNaturalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +61,8 @@ namespace EDDemo
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.estructurasLinealesToolStripMenuItem,
             this.estructurasNoLibealesToolStripMenuItem,
-            this.recursividadToolStripMenuItem});
+            this.recursividadToolStripMenuItem,
+            this.metodosDeOrdenamientoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
@@ -198,6 +204,45 @@ namespace EDDemo
             this.torreDeHanoiToolStripMenuItem1.Text = "Torre de hanoi";
             this.torreDeHanoiToolStripMenuItem1.Click += new System.EventHandler(this.torreDeHanoiToolStripMenuItem1_Click);
             // 
+            // metodosDeOrdenamientoToolStripMenuItem
+            // 
+            this.metodosDeOrdenamientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.metodoBurbujaToolStripMenuItem,
+            this.intercalacionToolStripMenuItem,
+            this.shellsortToolStripMenuItem,
+            this.mezclaNaturalToolStripMenuItem});
+            this.metodosDeOrdenamientoToolStripMenuItem.Name = "metodosDeOrdenamientoToolStripMenuItem";
+            this.metodosDeOrdenamientoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.metodosDeOrdenamientoToolStripMenuItem.Text = "Metodos de ordenamiento";
+            // 
+            // metodoBurbujaToolStripMenuItem
+            // 
+            this.metodoBurbujaToolStripMenuItem.Name = "metodoBurbujaToolStripMenuItem";
+            this.metodoBurbujaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.metodoBurbujaToolStripMenuItem.Text = "Metodo Burbuja";
+            this.metodoBurbujaToolStripMenuItem.Click += new System.EventHandler(this.metodoBurbujaToolStripMenuItem_Click);
+            // 
+            // intercalacionToolStripMenuItem
+            // 
+            this.intercalacionToolStripMenuItem.Name = "intercalacionToolStripMenuItem";
+            this.intercalacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.intercalacionToolStripMenuItem.Text = "Intercalacion";
+            this.intercalacionToolStripMenuItem.Click += new System.EventHandler(this.intercalacionToolStripMenuItem_Click);
+            // 
+            // shellsortToolStripMenuItem
+            // 
+            this.shellsortToolStripMenuItem.Name = "shellsortToolStripMenuItem";
+            this.shellsortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shellsortToolStripMenuItem.Text = "Shellsort";
+            this.shellsortToolStripMenuItem.Click += new System.EventHandler(this.shellsortToolStripMenuItem_Click);
+            // 
+            // mezclaNaturalToolStripMenuItem
+            // 
+            this.mezclaNaturalToolStripMenuItem.Name = "mezclaNaturalToolStripMenuItem";
+            this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaNaturalToolStripMenuItem.Text = "Mezcla natural";
+            this.mezclaNaturalToolStripMenuItem.Click += new System.EventHandler(this.mezclaNaturalToolStripMenuItem_Click);
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,6 +281,11 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem secuenciaDeFibonacciToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem torreDeHanoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem torreDeHanoiToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem metodosDeOrdenamientoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem metodoBurbujaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem shellsortToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mezclaNaturalToolStripMenuItem;
     }
 }
 
