@@ -136,6 +136,42 @@
     <Compile Include="Graphviz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursividad\frmBbinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmBbinaria.Designer.cs">
+      <DependentUpon>frmBbinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\frmExponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmExponente.Designer.cs">
+      <DependentUpon>frmExponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\frmFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmFactorial.Designer.cs">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\frmFibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmFibonacci.Designer.cs">
+      <DependentUpon>frmFibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\frmSumArreglo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmSumArreglo.Designer.cs">
+      <DependentUpon>frmSumArreglo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\frmTorreHanoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\frmTorreHanoi.Designer.cs">
+      <DependentUpon>frmTorreHanoi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Estructuras Lineales\Clases\frmListasC.resx">
       <DependentUpon>frmListasC.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +209,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recursividad\frmBbinaria.resx">
+      <DependentUpon>frmBbinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frmExponente.resx">
+      <DependentUpon>frmExponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frmFactorial.resx">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frmFibonacci.resx">
+      <DependentUpon>frmFibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frmSumArreglo.resx">
+      <DependentUpon>frmSumArreglo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\frmTorreHanoi.resx">
+      <DependentUpon>frmTorreHanoi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="external\config6">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
