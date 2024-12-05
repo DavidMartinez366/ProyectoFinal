@@ -52,6 +52,10 @@ namespace EDDemo
             this.intercalacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.shellsortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mezclaNaturalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quickSortToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mezclaDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.metodosDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +66,8 @@ namespace EDDemo
             this.estructurasLinealesToolStripMenuItem,
             this.estructurasNoLibealesToolStripMenuItem,
             this.recursividadToolStripMenuItem,
-            this.metodosDeOrdenamientoToolStripMenuItem});
+            this.metodosDeOrdenamientoToolStripMenuItem,
+            this.metodosDeBusquedaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
@@ -210,7 +215,10 @@ namespace EDDemo
             this.metodoBurbujaToolStripMenuItem,
             this.intercalacionToolStripMenuItem,
             this.shellsortToolStripMenuItem,
-            this.mezclaNaturalToolStripMenuItem});
+            this.mezclaNaturalToolStripMenuItem,
+            this.quickSortToolStripMenuItem,
+            this.radixToolStripMenuItem,
+            this.mezclaDToolStripMenuItem});
             this.metodosDeOrdenamientoToolStripMenuItem.Name = "metodosDeOrdenamientoToolStripMenuItem";
             this.metodosDeOrdenamientoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.metodosDeOrdenamientoToolStripMenuItem.Text = "Metodos de ordenamiento";
@@ -242,6 +250,33 @@ namespace EDDemo
             this.mezclaNaturalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mezclaNaturalToolStripMenuItem.Text = "Mezcla natural";
             this.mezclaNaturalToolStripMenuItem.Click += new System.EventHandler(this.mezclaNaturalToolStripMenuItem_Click);
+            // 
+            // quickSortToolStripMenuItem
+            // 
+            this.quickSortToolStripMenuItem.Name = "quickSortToolStripMenuItem";
+            this.quickSortToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quickSortToolStripMenuItem.Text = "QuickSort";
+            this.quickSortToolStripMenuItem.Click += new System.EventHandler(this.quickSortToolStripMenuItem_Click);
+            // 
+            // radixToolStripMenuItem
+            // 
+            this.radixToolStripMenuItem.Name = "radixToolStripMenuItem";
+            this.radixToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radixToolStripMenuItem.Text = "Radix";
+            this.radixToolStripMenuItem.Click += new System.EventHandler(this.radixToolStripMenuItem_Click);
+            // 
+            // mezclaDToolStripMenuItem
+            // 
+            this.mezclaDToolStripMenuItem.Name = "mezclaDToolStripMenuItem";
+            this.mezclaDToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mezclaDToolStripMenuItem.Text = "MezclaD";
+            this.mezclaDToolStripMenuItem.Click += new System.EventHandler(this.mezclaDToolStripMenuItem_Click);
+            // 
+            // metodosDeBusquedaToolStripMenuItem
+            // 
+            this.metodosDeBusquedaToolStripMenuItem.Name = "metodosDeBusquedaToolStripMenuItem";
+            this.metodosDeBusquedaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.metodosDeBusquedaToolStripMenuItem.Text = "Metodos de busqueda";
             // 
             // frmInicio
             // 
@@ -286,6 +321,10 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem intercalacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem shellsortToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mezclaNaturalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quickSortToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radixToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mezclaDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem metodosDeBusquedaToolStripMenuItem;
     }
 }
 

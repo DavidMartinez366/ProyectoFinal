@@ -151,8 +151,31 @@ namespace EDDemo
 
         private void mezclaNaturalToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmMezclaN mMezclaN = new frmMezclaN();
             mMezclaN.MdiParent = this;
             mMezclaN.Show();
+        }
+
+        private void quickSortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQuickSort mQuickSort = new frmQuickSort();
+            mQuickSort.MdiParent = this;
+            mQuickSort.Show();
+
+        }
+
+        private void radixToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRadix frmRadix = new frmRadix();
+            frmRadix.MdiParent = this;
+            frmRadix.Show();
+        }
+
+        private void mezclaDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMezclaD mMezclaD = new frmMezclaD(); 
+            mMezclaD.MdiParent = this;
+            mMezclaD.Show();
         }
     }
 }

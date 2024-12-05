@@ -146,11 +146,29 @@
     <Compile Include="Metodos de ordenamiento\frmIntercalacion.Designer.cs">
       <DependentUpon>frmIntercalacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Metodos de ordenamiento\frmMezclaD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\frmMezclaD.Designer.cs">
+      <DependentUpon>frmMezclaD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos de ordenamiento\frmMezclaN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Metodos de ordenamiento\frmMezclaN.Designer.cs">
       <DependentUpon>frmMezclaN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\frmQuickSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\frmQuickSort.Designer.cs">
+      <DependentUpon>frmQuickSort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\frmRadix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de ordenamiento\frmRadix.Designer.cs">
+      <DependentUpon>frmRadix.cs</DependentUpon>
     </Compile>
     <Compile Include="Metodos de ordenamiento\frmShellsort.cs">
       <SubType>Form</SubType>
@@ -229,8 +247,17 @@
     <EmbeddedResource Include="Metodos de ordenamiento\frmIntercalacion.resx">
       <DependentUpon>frmIntercalacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\frmMezclaD.resx">
+      <DependentUpon>frmMezclaD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Metodos de ordenamiento\frmMezclaN.resx">
       <DependentUpon>frmMezclaN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\frmQuickSort.resx">
+      <DependentUpon>frmQuickSort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de ordenamiento\frmRadix.resx">
+      <DependentUpon>frmRadix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Metodos de ordenamiento\frmShellsort.resx">
       <DependentUpon>frmShellsort.cs</DependentUpon>
