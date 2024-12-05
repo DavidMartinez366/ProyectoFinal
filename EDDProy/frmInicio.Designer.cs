@@ -56,6 +56,8 @@ namespace EDDemo
             this.radixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mezclaDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metodosDeBusquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaSecuencialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaHashToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -274,9 +276,26 @@ namespace EDDemo
             // 
             // metodosDeBusquedaToolStripMenuItem
             // 
+            this.metodosDeBusquedaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.busquedaSecuencialToolStripMenuItem,
+            this.busquedaHashToolStripMenuItem});
             this.metodosDeBusquedaToolStripMenuItem.Name = "metodosDeBusquedaToolStripMenuItem";
             this.metodosDeBusquedaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.metodosDeBusquedaToolStripMenuItem.Text = "Metodos de busqueda";
+            // 
+            // busquedaSecuencialToolStripMenuItem
+            // 
+            this.busquedaSecuencialToolStripMenuItem.Name = "busquedaSecuencialToolStripMenuItem";
+            this.busquedaSecuencialToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.busquedaSecuencialToolStripMenuItem.Text = "Busqueda secuencial";
+            this.busquedaSecuencialToolStripMenuItem.Click += new System.EventHandler(this.busquedaSecuencialToolStripMenuItem_Click);
+            // 
+            // busquedaHashToolStripMenuItem
+            // 
+            this.busquedaHashToolStripMenuItem.Name = "busquedaHashToolStripMenuItem";
+            this.busquedaHashToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.busquedaHashToolStripMenuItem.Text = "Busqueda Hash";
+            this.busquedaHashToolStripMenuItem.Click += new System.EventHandler(this.busquedaHashToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -325,6 +344,8 @@ namespace EDDemo
         private System.Windows.Forms.ToolStripMenuItem radixToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mezclaDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem metodosDeBusquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaSecuencialToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaHashToolStripMenuItem;
     }
 }
 

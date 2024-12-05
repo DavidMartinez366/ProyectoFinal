@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using EDDemo.Estructuras_Lineales;
 using EDDemo.Estructuras_Lineales.Clases;
 using EDDemo.Estructuras_No_Lineales;
+using EDDemo.Metodos_de_busqueda;
 using EDDemo.Metodos_de_ordenamiento;
 using EDDemo.Recursividad;
 
@@ -176,6 +177,21 @@ namespace EDDemo
             frmMezclaD mMezclaD = new frmMezclaD(); 
             mMezclaD.MdiParent = this;
             mMezclaD.Show();
+        }
+
+        private void busquedaSecuencialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBusquedaSecuencial mBusquedaS = new frmBusquedaSecuencial();
+            mBusquedaS.MdiParent = this;
+            mBusquedaS.Show();
+
+        }
+
+        private void busquedaHashToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBusquedaHash mBusquedaHash = new frmBusquedaHash();
+            mBusquedaHash.MdiParent = this;
+            mBusquedaHash.Show();
         }
     }
 }

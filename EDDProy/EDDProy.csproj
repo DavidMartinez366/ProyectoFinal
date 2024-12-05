@@ -134,6 +134,18 @@
       <DependentUpon>frmPilas.cs</DependentUpon>
     </Compile>
     <Compile Include="Graphviz.cs" />
+    <Compile Include="Metodos de busqueda\frmBusquedaHash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de busqueda\frmBusquedaHash.Designer.cs">
+      <DependentUpon>frmBusquedaHash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos de busqueda\frmBusquedaSecuencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos de busqueda\frmBusquedaSecuencial.Designer.cs">
+      <DependentUpon>frmBusquedaSecuencial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos de ordenamiento\frmBurbuja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -240,6 +252,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Estructuras Lineales\frmPilas.resx">
       <DependentUpon>frmPilas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de busqueda\frmBusquedaHash.resx">
+      <DependentUpon>frmBusquedaHash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos de busqueda\frmBusquedaSecuencial.resx">
+      <DependentUpon>frmBusquedaSecuencial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Metodos de ordenamiento\frmBurbuja.resx">
       <DependentUpon>frmBurbuja.cs</DependentUpon>
